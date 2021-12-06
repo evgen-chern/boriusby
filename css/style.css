@@ -852,6 +852,7 @@ html {
 
 .index-team .team-content .img {
   width: 48%;
+  border: 2px solid #A99159;
 }
 
 .index-team .team-content .img img {
