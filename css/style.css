@@ -167,6 +167,31 @@ html {
   overflow: hidden;
 }
 
+.breadcrumbs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px auto 70px auto;
+}
+
+.breadcrumbs a {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #545454;
+}
+
+.breadcrumbs span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 5px;
+}
+
 #button-up {
   display: none;
   opacity: 0.5;
@@ -1120,6 +1145,209 @@ html {
 
 /*END FOOTER*/
 
+/*START ABOUT-US*/
+
+.about-us {
+  width: 100%;
+}
+
+.about-us .about-us_head {
+  width: 100%;
+}
+
+.about-us .about-us_head h1 {
+  font-family: Palatino;
+  font-size: 40px;
+  line-height: 140%;
+  color: #2E2D2B;
+}
+
+.about-us .about-us_head .head-items {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 0 100px 0;
+}
+
+.about-us .about-us_head .head-items .item {
+  border-left: 5px solid #A99159;
+  margin-bottom: 50px;
+}
+
+.about-us .about-us_head .head-items .item:last-child {
+  margin-bottom: 0;
+}
+
+.about-us .about-us_head .head-items .item p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #262A2D;
+  padding-left: 20px;
+}
+
+.about-us .about-us_counters {
+  width: 100%;
+  background: url("../img/counters.png") center/cover no-repeat;
+}
+
+.about-us .about-us_counters .counters-items {
+  padding: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.about-us .about-us_counters .counters-items .item {
+  max-width: 265px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-us .about-us_counters .counters-items .item p {
+  font-family: Palatino;
+  font-size: 50px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.about-us .about-us_counters .counters-items .item span {
+  display: block;
+  text-align: center;
+  font-family: Palatino;
+  font-size: 20px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.about-us .about-us_warranty {
+  padding: 100px 0;
+}
+
+.about-us .about-us_warranty h2 {
+  font-family: Palatino;
+  font-size: 40px;
+  line-height: 140%;
+  color: #2E2D2B;
+  margin-bottom: 70px;
+}
+
+.about-us .about-us_warranty .warranty-slider {
+  width: 90%;
+  margin: 0 auto;
+  max-height: 384px;
+}
+
+.about-us .about-us_warranty .warranty-slider .slick-arrow {
+  cursor: pointer;
+}
+
+.about-us .about-us_warranty .warranty-slider .slick-arrow.prev {
+  position: absolute;
+  left: -61px;
+  top: 40%;
+  z-index: 3;
+}
+
+.about-us .about-us_warranty .warranty-slider .slick-arrow.next {
+  position: absolute;
+  right: -61px;
+  top: 40%;
+}
+
+.about-us .about-us_warranty .warranty-slider .slick-list {
+  margin: 0 -13px;
+}
+
+.about-us .about-us_warranty .warranty-slider .slider-item {
+  padding: 0 15px;
+}
+
+.about-us .about-us_warranty .warranty-slider .slider-item img {
+  width: 100%;
+}
+
+.about-us .about-us_how-work {
+  width: 100%;
+  padding: 0 0 120px 0;
+}
+
+.about-us .about-us_how-work h2 {
+  font-family: Palatino;
+  font-size: 40px;
+  line-height: 140%;
+  color: #2E2D2B;
+  margin-bottom: 70px;
+}
+
+.about-us .about-us_how-work .how-work_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-us .about-us_how-work .how-work_items .item {
+  max-width: 253px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-us .about-us_how-work .how-work_items .item p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1C202B;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.about-us .about-us_how-work .how-work_items .right_a {
+  max-width: 51px;
+  margin: 0 32px;
+}
+
+.about-us .about-us_how-work .how-work_items .right_a img {
+  width: 100%;
+}
+
+/*END ABOUT-US*/
+
 @media all and (max-width: 1300px) {
   .header .header-wrap .header-menu_nav .header-menu li {
     margin-left: 25px;
@@ -1150,6 +1378,15 @@ html {
     width: 88%;
     margin: 0 auto;
   }
+
+  .about-us .about-us_counters .counters-items .item {
+    max-width: 20%;
+  }
+
+  .about-us .about-us_warranty .warranty-slider {
+    width: 88%;
+    margin: 0 auto;
+  }
 }
 
 @media all and (max-width: 1250px) {
@@ -1163,6 +1400,10 @@ html {
 }
 
 @media all and (max-width: 1023px) {
+  .breadcrumbs {
+    margin: 20px auto 40px auto;
+  }
+
   #button-up {
     bottom: 25px;
   }
@@ -1547,6 +1788,88 @@ html {
   .footer .footer-content_wrap .copy {
     margin: 60px auto 0 auto;
   }
+
+  .about-us .about-us_head h1 {
+    font-size: 20px;
+  }
+
+  .about-us .about-us_head .head-items {
+    padding: 40px 0 50px 0;
+  }
+
+  .about-us .about-us_head .head-items .item {
+    margin-bottom: 20px;
+  }
+
+  .about-us .about-us_head .head-items .item p {
+    font-size: 12px;
+    line-height: 16px;
+    padding-left: 10px;
+  }
+
+  .about-us .about-us_counters .counters-items {
+    padding: 50px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .about-us .about-us_counters .counters-items .item {
+    max-width: 100%;
+    margin-bottom: 70px;
+  }
+
+  .about-us .about-us_counters .counters-items .item:last-child {
+    margin-bottom: 0;
+  }
+
+  .about-us .about-us_warranty {
+    padding: 70px 0;
+  }
+
+  .about-us .about-us_warranty h2 {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .about-us .about-us_warranty .warranty-slider {
+    width: 50%;
+    margin: 0 auto;
+    max-height: 500px;
+  }
+
+  .about-us .about-us_how-work {
+    padding: 0 0 70px 0;
+  }
+
+  .about-us .about-us_how-work h2 {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .about-us .about-us_how-work .how-work_items {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+
+  .about-us .about-us_how-work .how-work_items .item:last-child {
+    margin-bottom: 0;
+  }
+
+  .about-us .about-us_how-work .how-work_items .item {
+    max-width: 40%;
+    width: 105px;
+    margin-bottom: 50px;
+  }
+
+  .about-us .about-us_how-work .how-work_items .item p {
+    font-size: 14px;
+    line-height: 19px;
+  }
 }
 
 @media all and (max-width: 780px) {
@@ -1597,5 +1920,22 @@ html {
 
   .index-team .team-content .description p {
     width: 100%;
+  }
+
+  .about-us .about-us_warranty .warranty-slider {
+    width: 75%;
+    margin: 0 auto;
+    max-height: 380px;
+  }
+
+  .about-us .about-us_how-work .how-work_items .item:last-child:before {
+    content: "🠓";
+    font-size: 58px;
+    font-weight: 300;
+    color: #808080;
+  }
+
+  .about-us .about-us_how-work .how-work_items .right_a:nth-child(4n) {
+    display: none;
   }
 }

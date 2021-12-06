@@ -68,6 +68,25 @@ window.onload = function(){
             },
         ]
     })
+    $(".warranty-slider").slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: true,
+        lazyLoad: 'ondemand',
+        prevArrow: '<div class="prev"><img src="img/ar_prev.png"></div>',
+        nextArrow: '<div class="next"><img src="img/ar_next.png"></div>',
+        responsive: [
+            {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: true,
+                    prevArrow: '<div class="prev"><img src="img/ar_prev.png"></div>',
+                    nextArrow: '<div class="next"><img src="img/ar_next.png"></div>',
+                }
+            },
+        ]
+    })
 
 
     let buttonUp = $('#button-up');
