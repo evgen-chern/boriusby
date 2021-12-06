@@ -54,16 +54,16 @@ window.onload = function(){
         slidesToScroll: 1,
         arrows: true,
         lazyLoad: 'ondemand',
-        prevArrow: '<div class="prev"><img src="../img/ar_prev.png"></div>',
-        nextArrow: '<div class="next"><img src="../img/ar_next.png"></div>',
+        prevArrow: '<div class="prev"><img src="/img/ar_prev.png"></div>',
+        nextArrow: '<div class="next"><img src="/img/ar_next.png"></div>',
         responsive: [
             {
                 breakpoint: 800,
                 settings: {
                     slidesToShow: 1,
                     arrows: true,
-                    prevArrow: '<div class="prev"><img src="../img/ar_prev.png"></div>',
-                    nextArrow: '<div class="next"><img src="../img/ar_next.png"></div>',
+                    prevArrow: '<div class="prev"><img src="/img/ar_prev.png"></div>',
+                    nextArrow: '<div class="next"><img src="/img/ar_next.png"></div>',
                 }
             },
         ]
