@@ -1929,7 +1929,7 @@ html {
   }
 
   .about-us .about-us_how-work .how-work_items .item:last-child:before {
-    content: "🠓";
+    content: " ↓";
     font-size: 58px;
     font-weight: 300;
     color: #808080;
