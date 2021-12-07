@@ -999,6 +999,7 @@ html {
 }
 
 .footer .footer-form_wrap .form .form-fields .btn {
+  text-align: center;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -1930,7 +1931,7 @@ html {
 
   .about-us .about-us_how-work .how-work_items .item:last-child:before {
     content: " ↓";
-    font-size: 58px;
+    font-size: 48px;
     font-weight: 300;
     color: #808080;
   }
