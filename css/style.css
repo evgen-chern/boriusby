@@ -1349,6 +1349,171 @@ html {
 
 /*END ABOUT-US*/
 
+.banner-fullscreen {
+  width: 100%;
+  height: 350px;
+  background: url("../img/coast_banner.png") center/cover no-repeat;
+}
+
+.banner-fullscreen h1 {
+  font-family: Palatino;
+  font-size: 40px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #262A2D;
+  padding-top: 225px;
+}
+
+/*START COAST*/
+
+.coast {
+  width: 100%;
+}
+
+.coast h2 {
+  font-family: Palatino;
+  font-size: 40px;
+  line-height: 54px;
+  color: #2E2D2B;
+  margin-bottom: 8px;
+}
+
+.coast hr {
+  width: 100%;
+  height: 10px;
+  background: #A99159;
+}
+
+.coast .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 19px;
+}
+
+.coast .head h5 {
+  font-family: Palatino;
+  font-size: 25px;
+  line-height: 34px;
+  color: #2E2D2B;
+  margin-right: 150px;
+}
+
+.coast .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #707070;
+}
+
+.coast .item .title {
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  width: 30%;
+}
+
+.coast .item .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.coast .item .options .option {
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 14px;
+}
+
+.coast .item .options .option:nth-child(2) {
+  margin-bottom: 0;
+}
+
+.coast .item .values {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 100px;
+}
+
+.coast .item .values .value {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #A99159;
+  margin-bottom: 14px;
+}
+
+.coast .item .values .value:nth-child(2) {
+  margin-bottom: 0;
+}
+
+.coast .coast-resident {
+  width: 100%;
+}
+
+.coast .coast-resident .resident-items {
+  margin: 35px 0 100px 0;
+}
+
+.coast .coast-non_resident {
+  width: 100%;
+}
+
+.coast .coast-non_resident .non_resident-items {
+  margin: 35px 0 50px 0;
+}
+
+.coast .coast-non_resident .non_resident-items h5 {
+  margin-right: 245px;
+}
+
+.coast .coast-non_resident .non_resident-items .title {
+  width: 45%;
+}
+
+.coast .coast-non_resident .non_resident-items .value {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #A99159;
+  width: 310px;
+}
+
+.coast .coast-description {
+  margin-bottom: 120px;
+}
+
+.coast .coast-description p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #2E2D2B;
+}
+
+/*END COAST*/
+
 @media all and (max-width: 1300px) {
   .header .header-wrap .header-menu_nav .header-menu li {
     margin-left: 25px;
@@ -1868,6 +2033,93 @@ html {
   }
 
   .about-us .about-us_how-work .how-work_items .item p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .banner-fullscreen {
+    height: 170px;
+  }
+
+  .banner-fullscreen h1 {
+    padding-top: 70px;
+    font-size: 20px;
+  }
+
+  .coast h2 {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 4px;
+  }
+
+  .coast hr {
+    height: 5px;
+  }
+
+  .coast .head h5 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 0;
+    width: 35%;
+    text-align: left;
+  }
+
+  .coast .item {
+    padding: 10px 0;
+  }
+
+  .coast .item .title {
+    font-size: 14px;
+    line-height: 19px;
+    width: 30%;
+  }
+
+  .coast .item .options {
+    width: 30%;
+  }
+
+  .coast .item .options .option {
+    font-size: 11px;
+    line-height: 16px;
+    height: 32px;
+  }
+
+  .coast .item .values {
+    margin-right: 0;
+    width: 30%;
+  }
+
+  .coast .item .values .value {
+    font-size: 14px;
+    line-height: 16px;
+    height: 32px;
+  }
+
+  .coast .coast-resident .resident-items {
+    margin: 25px 0 70px 0;
+  }
+
+  .coast .coast-non_resident .non_resident-items {
+    margin: 25px 0 40px 0;
+  }
+
+  .coast .coast-non_resident .non_resident-items h5 {
+    margin-right: 0;
+    width: 35%;
+    text-align: left;
+  }
+
+  .coast .coast-non_resident .non_resident-items .value {
+    font-size: 14px;
+    line-height: 19px;
+    width: 35%;
+  }
+
+  .coast .coast-description {
+    margin-bottom: 70px;
+  }
+
+  .coast .coast-description p {
     font-size: 14px;
     line-height: 19px;
   }
