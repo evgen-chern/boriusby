@@ -1289,12 +1289,12 @@ html {
   width: 100%;
 }
 
-.about-us .about-us_how-work {
+.about-us_how-work {
   width: 100%;
   padding: 0 0 120px 0;
 }
 
-.about-us .about-us_how-work h2 {
+.about-us_how-work h2 {
   font-family: Palatino;
   font-size: 40px;
   line-height: 140%;
@@ -1302,7 +1302,7 @@ html {
   margin-bottom: 70px;
 }
 
-.about-us .about-us_how-work .how-work_items {
+.about-us_how-work .how-work_items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1315,7 +1315,7 @@ html {
           align-items: center;
 }
 
-.about-us .about-us_how-work .how-work_items .item {
+.about-us_how-work .how-work_items .item {
   max-width: 253px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1329,7 +1329,7 @@ html {
           align-items: center;
 }
 
-.about-us .about-us_how-work .how-work_items .item p {
+.about-us_how-work .how-work_items .item p {
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
@@ -1338,12 +1338,12 @@ html {
   text-align: center;
 }
 
-.about-us .about-us_how-work .how-work_items .right_a {
+.about-us_how-work .how-work_items .right_a {
   max-width: 51px;
   margin: 0 32px;
 }
 
-.about-us .about-us_how-work .how-work_items .right_a img {
+.about-us_how-work .how-work_items .right_a img {
   width: 100%;
 }
 
@@ -1513,6 +1513,241 @@ html {
 }
 
 /*END COAST*/
+
+/*START SERVICES*/
+
+.services {
+  width: 100%;
+}
+
+.services h1 {
+  font-family: Palatino;
+  font-size: 40px;
+  line-height: 140%;
+  color: #262A2D;
+  margin-bottom: 70px;
+}
+
+.services .services-nav_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.services .services-nav_wrap .services-nav {
+  width: 40%;
+}
+
+.services .services-nav_wrap .services-nav .services-nav_menu .link {
+  display: block;
+  font-family: Palatino;
+  font-size: 20px;
+  line-height: 140%;
+  color: #2E2D2B;
+  margin-bottom: 44px;
+}
+
+.services .services-nav_wrap .services-nav .services-nav_menu .link:hover {
+  color: #A99159;
+}
+
+.services .services-nav_wrap .services-nav .services-nav_menu .services-drop {
+  position: relative;
+}
+
+.services .services-nav_wrap .services-nav .services-nav_menu .services-drop .link {
+  margin-bottom: 25px;
+}
+
+.services .services-nav_wrap .services-nav .services-nav_menu .services-drop .arrow::after {
+  display: none;
+}
+
+.services .services-nav_wrap .services-nav .services-nav_menu .services-drop .arrow.active::after {
+  top: 5px;
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+      transform: rotate(135deg);
+}
+
+.services .services-nav_wrap .services-nav .services-nav_menu .services-drop .services_drop_links {
+  padding-left: 25px;
+}
+
+.services .services-nav_wrap .services-nav .services-nav_menu .services-drop .services_drop_links li {
+  list-style-type: disc;
+  margin-bottom: 20px;
+  color: #2E2E2E;
+}
+
+.services .services-nav_wrap .services-nav .services-nav_menu .services-drop .services_drop_links li:hover {
+  color: #A99159;
+}
+
+.services .services-nav_wrap .services-nav .services-nav_menu .services-drop .services_drop_links li:last-child {
+  margin-bottom: 30px;
+}
+
+.services .services-nav_wrap .services-nav .services-nav_menu .services-drop .services_drop_links li .sub-link {
+  font-size: 16px;
+  line-height: 140%;
+  color: #2E2E2E;
+}
+
+.services .services-nav_wrap .services-nav .services-nav_menu .services-drop .services_drop_links li .sub-link:hover {
+  color: #A99159;
+  text-decoration: underline;
+}
+
+.services .consultation {
+  width: 100%;
+  background: url("../img/consult.png") center/cover no-repeat;
+  padding: 50px 0;
+}
+
+.services .consultation h3 {
+  font-family: Palatino;
+  font-size: 40px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+
+.services .consultation h3 span {
+  font-family: Palatino;
+  color: #A99159;
+}
+
+.services .consultation .consultation-quiz {
+  width: 100%;
+}
+
+.services .consultation .consultation-quiz img {
+  width: 100%;
+}
+
+.services .about-us_how-work {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.services .practice {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.services .practice h2 {
+  font-family: Palatino;
+  font-size: 40px;
+  line-height: 140%;
+  color: #2E2D2B;
+  margin-bottom: 70px;
+}
+
+.services .practice ul {
+  width: 60%;
+}
+
+.services .practice ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 22px;
+}
+
+.services .practice ul li:last-child {
+  margin-bottom: 0;
+}
+
+.services .practice ul li p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #2E2D2B;
+  margin-left: 20px;
+}
+
+.services .faq {
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+.services .faq h2 {
+  font-family: Palatino;
+  font-size: 40px;
+  line-height: 140%;
+  color: #2E2D2B;
+  margin-bottom: 80px;
+}
+
+.services .faq .faq-items {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.services .faq .faq-items .item {
+  width: 48%;
+  margin-top: 42px;
+  position: relative;
+}
+
+.services .faq .faq-items .item.under {
+  margin-top: 0;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 36px;
+}
+
+.services .faq .faq-items .item p {
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+  width: 80%;
+}
+
+.services .faq .faq-items .item .plus {
+  cursor: pointer;
+}
+
+.services .faq .faq-items .item .plus.active::after {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.services .faq .faq-items .item .plus::after {
+  content: "+";
+  position: absolute;
+  top: 0;
+  right: 2%;
+  font-size: 36px;
+  line-height: 80%;
+  color: #a99159;
+}
+
+.services .faq .faq-items .item .item-answer {
+  display: none;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/*END SERVICES*/
 
 @media all and (max-width: 1300px) {
   .header .header-wrap .header-menu_nav .header-menu li {
@@ -2005,16 +2240,16 @@ html {
     max-height: 500px;
   }
 
-  .about-us .about-us_how-work {
+  .about-us_how-work {
     padding: 0 0 70px 0;
   }
 
-  .about-us .about-us_how-work h2 {
+  .about-us_how-work h2 {
     font-size: 20px;
     margin-bottom: 50px;
   }
 
-  .about-us .about-us_how-work .how-work_items {
+  .about-us_how-work .how-work_items {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: space-evenly;
@@ -2022,17 +2257,17 @@ html {
             justify-content: space-evenly;
   }
 
-  .about-us .about-us_how-work .how-work_items .item:last-child {
+  .about-us_how-work .how-work_items .item:last-child {
     margin-bottom: 0;
   }
 
-  .about-us .about-us_how-work .how-work_items .item {
+  .about-us_how-work .how-work_items .item {
     max-width: 40%;
     width: 105px;
     margin-bottom: 50px;
   }
 
-  .about-us .about-us_how-work .how-work_items .item p {
+  .about-us_how-work .how-work_items .item p {
     font-size: 14px;
     line-height: 19px;
   }
@@ -2123,6 +2358,128 @@ html {
     font-size: 14px;
     line-height: 19px;
   }
+
+  .services h1 {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .services .services-nav_wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .services .services-nav_wrap .services-nav {
+    width: 87%;
+  }
+
+  .services .services-nav_wrap .services-nav .services-nav_menu .link {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .services .services-nav_wrap .services-nav .services-nav_menu .services-drop .link {
+    margin-bottom: 20px;
+  }
+
+  .services .services-nav_wrap .services-nav .services-nav_menu .services-drop .services_drop_links {
+    display: none;
+  }
+
+  .services .services-nav_wrap .services-nav .services-nav_menu .services-drop .services_drop_links li {
+    margin-bottom: 15px;
+  }
+
+  .services .services-nav_wrap .services-nav .services-nav_menu .services-drop .services_drop_links li .sub-link {
+    font-size: 14px;
+  }
+
+  .services .consultation h3 {
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+
+  .services .about-us_how-work {
+    padding: 70px 0;
+  }
+
+  .services .practice {
+    margin-bottom: 70px;
+  }
+
+  .services .practice h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .services .practice ul {
+    width: 100%;
+  }
+
+  .services .practice ul li {
+    margin-bottom: 20px;
+  }
+
+  .services .practice ul li svg {
+    min-width: 20px;
+    width: 20px;
+  }
+
+  .services .practice ul li p {
+    margin-left: 18px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .services .faq {
+    margin-bottom: 70px;
+  }
+
+  .services .faq h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .services .faq .faq-items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .services .faq .faq-items .item {
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 20px;
+  }
+
+  .services .faq .faq-items .item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .services .faq .faq-items .item.under {
+    margin-top: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .services .faq .faq-items .item p {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .services .faq .faq-items .item .plus::after {
+    line-height: 65%;
+  }
+
+  .services .faq .faq-items .item .item-answer {
+    font-size: 14px;
+  }
 }
 
 @media all and (max-width: 780px) {
@@ -2138,6 +2495,21 @@ html {
         transform: rotate(225deg);
     position: absolute;
     right: 0;
+    top: 0;
+  }
+
+  .services .services-nav_wrap .services-nav .services-nav_menu .services-drop .arrow::after {
+    content: "";
+    display: block;
+    width: 13px;
+    height: 13px;
+    border-bottom: 2px solid #262F40;
+    border-left: 2px solid #262F40;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    position: absolute;
+    right: -10%;
     top: 0;
   }
 }
@@ -2181,14 +2553,14 @@ html {
     max-height: 380px;
   }
 
-  .about-us .about-us_how-work .how-work_items .item:last-child:before {
+  .about-us_how-work .how-work_items .item:last-child:before {
     content: " ↓";
     font-size: 42px;
     font-weight: 300;
     color: #808080;
   }
 
-  .about-us .about-us_how-work .how-work_items .right_a:nth-child(4n) {
+  .about-us_how-work .how-work_items .right_a:nth-child(4n) {
     display: none;
   }
 }

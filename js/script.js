@@ -40,12 +40,18 @@ window.onload = function(){
         }
     })
 
-    /*FOOTER DROP*/
-    $(".footer__drop .title").click(function(){
-        if(window.innerWidth <= 780){
+    /*SERVICES DROP*/
+    $(".services-drop .arrow").click(function(){
+        if(window.innerWidth <= 1023){
             $(this).toggleClass("active")
-            $(this).siblings(".footer__links").slideToggle().css("display", "flex")
+            $(this).siblings(".services_drop_links").slideToggle().css("display", "block")
         }
+    })
+
+    /*FAQ DROP*/
+    $(".faq-items .item .plus").click(function(){
+            $(this).toggleClass("active")
+            $(this).siblings(".item-answer").slideToggle().css("display", "block")
     })
 
     /*SLIDER*/
