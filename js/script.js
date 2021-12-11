@@ -94,6 +94,24 @@ window.onload = function(){
         ]
     })
 
+    $(".articles-slider").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: false,
+        lazyLoad: 'ondemand',
+        responsive: [
+            {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 1,
+                    dots: true,
+                    arrows: false,
+                }
+            },
+        ]
+    })
+
 
     let buttonUp = $('#button-up');
     $(window).scroll (function () {
