@@ -132,7 +132,7 @@ window.onload = function(){
         ]
     })
 
-
+    /*SCROLL UP*/
     let buttonUp = $('#button-up');
     $(window).scroll (function () {
         if ($(this).scrollTop () > 300) {
@@ -147,5 +147,10 @@ window.onload = function(){
         }, 0);
         return false;
     });
+
+    /*PREV PAGE*/
+    $(".back_link").click(function(EO){
+        history.go(-1);
+    })
 
 }
