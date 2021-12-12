@@ -2644,64 +2644,6 @@ html {
   padding: 0 5px;
 }
 
-.article-detail_wrapper .article-detail .form {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-row-gap: 30px;
-}
-
-.article-detail_wrapper .article-detail .form h3 {
-  font-family: Palatino;
-  font-size: 25px;
-  line-height: 33px;
-  color: #2E2D2B;
-  margin-bottom: 20px;
-}
-
-.article-detail_wrapper .article-detail .form .fields {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 30px;
-}
-
-.article-detail_wrapper .article-detail .form .simple {
-  background: #FFFFFF;
-  border: 1px solid #A99159;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 22px;
-  color: #858585;
-  padding: 19px 26px;
-}
-
-.article-detail_wrapper .article-detail .form textarea {
-  width: 100% !important;
-  background: #FFFFFF;
-  border: 1px solid #A99159;
-  padding: 19px 26px;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 22px;
-  color: #858585;
-  resize: none;
-}
-
-.article-detail_wrapper .article-detail .form a {
-  margin: 20px auto 0 auto;
-  display: block;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  background: #A99159;
-  padding: 16px 60px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
 .article-detail_wrapper .article-detail_sidebar {
   width: 100%;
 }
@@ -2754,6 +2696,143 @@ html {
 }
 
 /*END ARTICLES_DETAIL*/
+
+.form-consult {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 30px;
+}
+
+.form-consult h3 {
+  font-family: Palatino;
+  font-size: 25px;
+  line-height: 33px;
+  color: #2E2D2B;
+  margin-bottom: 20px;
+}
+
+.form-consult .fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+}
+
+.form-consult .simple {
+  background: #FFFFFF;
+  border: 1px solid #A99159;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #858585;
+  padding: 19px 26px;
+}
+
+.form-consult textarea {
+  width: 100% !important;
+  background: #FFFFFF;
+  border: 1px solid #A99159;
+  padding: 19px 26px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #858585;
+  resize: none;
+}
+
+.form-consult a {
+  margin: 20px auto 0 auto;
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #A99159;
+  padding: 16px 60px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+/*START CONTACTS*/
+
+.contact-us {
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.contact-us .contact-us_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact-us .contact-us_wrapper .content {
+  width: 40%;
+}
+
+.contact-us .contact-us_wrapper .content h1 {
+  font-family: Palatino;
+  font-size: 40px;
+  line-height: 140%;
+  color: #262A2D;
+  margin-bottom: 25px;
+}
+
+.contact-us .contact-us_wrapper .content .item {
+  margin-bottom: 40px;
+}
+
+.contact-us .contact-us_wrapper .content .item:last-child {
+  margin-bottom: 0;
+}
+
+.contact-us .contact-us_wrapper .content p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 13px;
+}
+
+.contact-us .contact-us_wrapper .content p span {
+  padding-left: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2E2D2B;
+}
+
+.contact-us .contact-us_wrapper .content a {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #262A2D;
+}
+
+.contact-us .contact-us_wrapper .content span {
+  font-size: 16px;
+  line-height: 22px;
+  color: #262A2D;
+}
+
+.contact-us .contact-us_wrapper .form-consult {
+  width: 50%;
+}
+
+.contact-us .map {
+  width: 100%;
+  margin-top: 100px;
+}
+
+/*END CONTACTS*/
 
 @media all and (max-width: 1300px) {
   .header .header-wrap .header-menu_nav .header-menu li {
@@ -3881,38 +3960,6 @@ html {
     line-height: 19px;
   }
 
-  .article-detail_wrapper .article-detail .form {
-    grid-row-gap: 20px;
-  }
-
-  .article-detail_wrapper .article-detail .form h3 {
-    font-size: 20px;
-    line-height: 140%;
-    margin-bottom: 10px;
-  }
-
-  .article-detail_wrapper .article-detail .form .fields {
-    grid-template-columns: 1fr;
-    grid-column-gap: 0;
-    grid-row-gap: 20px;
-  }
-
-  .article-detail_wrapper .article-detail .form .simple {
-    font-size: 14px;
-    line-height: 19px;
-  }
-
-  .article-detail_wrapper .article-detail .form textarea {
-    font-size: 14px;
-    line-height: 19px;
-  }
-
-  .article-detail_wrapper .article-detail .form a {
-    font-size: 14px;
-    line-height: 19px;
-    margin: 10px auto 0 auto;
-  }
-
   .article-detail_wrapper .article-detail_sidebar h3 {
     margin-bottom: 20px;
   }
@@ -3924,6 +3971,67 @@ html {
   .article-detail_wrapper .article-detail_sidebar ul li a .title {
     font-size: 14px;
     line-height: 19px;
+  }
+
+  .form-consult {
+    grid-row-gap: 20px;
+  }
+
+  .form-consult h3 {
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 10px;
+  }
+
+  .form-consult .fields {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 20px;
+  }
+
+  .form-consult .simple {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .form-consult textarea {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .form-consult a {
+    font-size: 14px;
+    line-height: 19px;
+    margin: 10px auto 0 auto;
+  }
+
+  .contact-us {
+    margin-bottom: 70px;
+  }
+
+  .contact-us .contact-us_wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .contact-us .contact-us_wrapper .content {
+    width: 100%;
+    margin-bottom: 70px;
+  }
+
+  .contact-us .contact-us_wrapper .content h1 {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .contact-us .contact-us_wrapper .form-consult {
+    width: 100%;
+  }
+
+  .contact-us .map {
+    margin-top: 70px;
   }
 }
 
