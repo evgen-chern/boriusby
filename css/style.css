@@ -1361,7 +1361,7 @@ html {
   line-height: 140%;
   text-transform: uppercase;
   color: #262A2D;
-  padding-top: 225px;
+  padding-top: 215px;
 }
 
 /*START COAST*/
@@ -2572,6 +2572,189 @@ html {
 
 /*END ARTICLES*/
 
+/*START ARTICLES_DETAIL*/
+
+.banner-fullscreen.article {
+  background: url("../img/art_det.png") center/cover no-repeat;
+}
+
+.article-detail_wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 65% auto;
+  grid-column-gap: 30px;
+  margin-bottom: 120px;
+}
+
+.article-detail_wrapper .article-detail {
+  width: 100%;
+}
+
+.article-detail_wrapper .article-detail .content {
+  width: 100%;
+}
+
+.article-detail_wrapper .article-detail .content img {
+  display: block;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.article-detail_wrapper .article-detail .content p {
+  margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.article-detail_wrapper .article-detail .content p b {
+  font-weight: 600;
+}
+
+.article-detail_wrapper .article-detail .navigation {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 110px 0 120px 0;
+}
+
+.article-detail_wrapper .article-detail .navigation a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 13px 26px;
+  background: #A99159;
+}
+
+.article-detail_wrapper .article-detail .navigation a span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding: 0 5px;
+}
+
+.article-detail_wrapper .article-detail .form {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 30px;
+}
+
+.article-detail_wrapper .article-detail .form h3 {
+  font-family: Palatino;
+  font-size: 25px;
+  line-height: 33px;
+  color: #2E2D2B;
+  margin-bottom: 20px;
+}
+
+.article-detail_wrapper .article-detail .form .fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+}
+
+.article-detail_wrapper .article-detail .form .simple {
+  background: #FFFFFF;
+  border: 1px solid #A99159;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #858585;
+  padding: 19px 26px;
+}
+
+.article-detail_wrapper .article-detail .form textarea {
+  width: 100% !important;
+  background: #FFFFFF;
+  border: 1px solid #A99159;
+  padding: 19px 26px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #858585;
+  resize: none;
+}
+
+.article-detail_wrapper .article-detail .form a {
+  margin: 20px auto 0 auto;
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #A99159;
+  padding: 16px 60px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.article-detail_wrapper .article-detail_sidebar {
+  width: 100%;
+}
+
+.article-detail_wrapper .article-detail_sidebar h3 {
+  font-family: Palatino;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.article-detail_wrapper .article-detail_sidebar ul li {
+  border-bottom: 1px solid #A99159;
+  padding: 25px 0;
+}
+
+.article-detail_wrapper .article-detail_sidebar ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.article-detail_wrapper .article-detail_sidebar ul li a .title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.article-detail_wrapper .article-detail_sidebar ul li a .text {
+  display: block;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  margin: 20px 0 10px 0;
+}
+
+.article-detail_wrapper .article-detail_sidebar ul li a .date {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #606060;
+}
+
+/*END ARTICLES_DETAIL*/
+
 @media all and (max-width: 1300px) {
   .header .header-wrap .header-menu_nav .header-menu li {
     margin-left: 25px;
@@ -3640,7 +3823,7 @@ html {
   }
 
   .articles-wrapper .articles .articles-items .item .date {
-    margin: 10px 0 15px 0;
+    margin: 15px 0 20px 0;
   }
 
   .articles-wrapper .articles .articles-items .item .date span {
@@ -3669,6 +3852,78 @@ html {
 
   .articles-wrapper .articles-sidebar {
     display: none;
+  }
+
+  .article-detail_wrapper {
+    margin-bottom: 70px;
+    grid-template-columns: 100%;
+    grid-column-gap: 0;
+    grid-row-gap: 50px;
+  }
+
+  .article-detail_wrapper .article-detail .content img {
+    margin-bottom: 30px;
+  }
+
+  .article-detail_wrapper .article-detail .content p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 300;
+  }
+
+  .article-detail_wrapper .article-detail .navigation {
+    margin: 50px 0 50px 0;
+  }
+
+  .article-detail_wrapper .article-detail .navigation a span {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .article-detail_wrapper .article-detail .form {
+    grid-row-gap: 20px;
+  }
+
+  .article-detail_wrapper .article-detail .form h3 {
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 10px;
+  }
+
+  .article-detail_wrapper .article-detail .form .fields {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 20px;
+  }
+
+  .article-detail_wrapper .article-detail .form .simple {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .article-detail_wrapper .article-detail .form textarea {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .article-detail_wrapper .article-detail .form a {
+    font-size: 14px;
+    line-height: 19px;
+    margin: 10px auto 0 auto;
+  }
+
+  .article-detail_wrapper .article-detail_sidebar h3 {
+    margin-bottom: 20px;
+  }
+
+  .article-detail_wrapper .article-detail_sidebar ul li {
+    padding: 20px 0;
+  }
+
+  .article-detail_wrapper .article-detail_sidebar ul li a .title {
+    font-size: 14px;
+    line-height: 19px;
   }
 }
 
