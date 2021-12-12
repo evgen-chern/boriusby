@@ -2909,6 +2909,22 @@ html {
 
 /*END 404*/
 
+/*START CLIENTS*/
+
+.clients {
+  margin-bottom: 120px;
+}
+
+.clients h1 {
+  font-family: Palatino;
+  font-size: 40px;
+  line-height: 140%;
+  color: #262A2D;
+  margin-bottom: 70px;
+}
+
+/*END CLIENTS*/
+
 @media all and (max-width: 1300px) {
   .header .header-wrap .header-menu_nav .header-menu li {
     margin-left: 25px;
@@ -4140,6 +4156,15 @@ html {
   .page-404 .page-404_content .back {
     font-size: 16px;
     line-height: 22px;
+  }
+
+  .clients {
+    margin-bottom: 70px;
+  }
+
+  .clients h1 {
+    font-size: 20px;
+    margin-bottom: 40px;
   }
 }
 
